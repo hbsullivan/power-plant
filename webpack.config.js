@@ -17,7 +17,7 @@ module.exports = {
     new ESLintPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: 'template',
+      title: 'power-plant',
       template: './src/index.html',
       inject: 'body'
     })
